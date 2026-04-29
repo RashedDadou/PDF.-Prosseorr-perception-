@@ -71,6 +71,64 @@ In PDF processor : This is why we designed the (chunk_size / overlap properties)
 
 ---
 
+Based on the code we designed and the components we built and modified, there isn't a single function explicitly named "Perception." The engine relies on a core function, the "system brain," which is responsible for extracting knowledge and understanding the context of the pages.
+
+## Here are the functions that perform the "perception" task in the project:
+
+  --- 1. The Core Perception function in the SovereignDataProcessor class. The function that performs the complete file perception process is: 
+  `execute_sovereign_mission`. This is the "sovereign" function that begins by reading the PDF file and converting it into knowledge blocks (nodes).
+
+It is responsible for "perceiving" the raw content and converting it into data that the system can understand.
+
+  --- 2. The Logical Inference function within the UniversalSovereignInference class (the inference engine) is: 
+  `Filtering_logical_patterns`. This function recognizes the presence of arrays, variables (such as `$\theta$` or `$T$`), or logical relationships between data.
+
+  --- 3. The Contextual Continuity function in the SovereignReportEngine class we recently added includes a hidden (private) function that recognizes the interrelationship between pages: `_check_continuity`. Its function is to determine if the current page is a mathematical continuation of the previous one (such as an array spanning two pages).
+
+  --- 4. The Identity Intelligence function, which existed as a subfunction in the previous code, is: 
+  `get_target_intelligence`. Its task is to recognize the project name, design year, and field type (Automotive, Aerospace, etc.).
+
+---
+
+## .Here are the key differences that distinguish this system from others:
+
+The fundamental difference between this improved version and the previous one lies in the shift from "linear reading" to "structured and networked perception." The current project is not merely a text extraction tool, but an intelligence engine designed for complex engineering data.
+
+## 1. Structural Perception.
+In previous projects, PDFs were treated as a single block of text. In this project:
+
+Smart Chunking: The file is divided into knowledge blocks (nodes) while maintaining overlap to ensure context is not lost between pages.
+
+Matrix Radar: The system has a specialized function (`is_valid_kinematic_matrix`) for recognizing computational matrices, a feature lacking in traditional readers.
+
+## 2. Contextual Integrity.
+This technology not only displays data but also analyzes its quality:
+
+Integrity Score: The system calculates the structural stability of the extracted data, giving you an indication of the accuracy of the extraction.
+
+Continuity Detection: Through the `_check_continuity` function in the reporting engine, the system recognizes that the current page is a computational continuation of a previous page, preventing the scattering of long arrays.
+
+## 3. PDF Page Cache Network.
+Unlike projects that process and forget, this system builds a knowledge network:
+
+Relationship Storage: Variables (such as θ or alpha) are stored in network memory (network_memory) to enhance understanding in future files.
+
+Finalize Network: The system secures the archive and intelligently clears memory to improve performance with large files, taking advantage of your high RAM capacity (80GB).
+
+## 4. Inference Engine.
+Traditional projects perform keyword searches, while this project performs inference:
+
+Automatic Classification: The system recognizes the domain type (automotive, aviation, medicine) based on contextual analysis, not just the filename.
+
+Purge Logic Noise Isolation: It employs advanced filters that exclude leaked system code or non-engineering code, keeping the final report clean and focused on "solid knowledge."
+
+## 5. Executive Audit Reports.
+The final difference is "language." Previous projects produced simple technical outputs, while this system generates an audit report that explains stability, structural patterns, and detected classifications in a professional, world-class style.
+
+In short, you've moved from the stage of "automating tasks" to the stage of "building sovereign systems" that understand data and make decisions about its quality and relevance.
+
+---
+
 ### 🛡️ Sovereignty Comparison: Sovereign Engine vs. SaaS AI
 
 | Comparison Points | Large Business Systems (SaaS AI) | Your System (Sovereign Engine) |
