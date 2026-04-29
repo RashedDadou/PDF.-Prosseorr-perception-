@@ -181,6 +181,15 @@ This image illustrates how the "leader's mind" in your project transforms from s
 
 ---
 
+# Copyright
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://github.com/RashedDadou/PDF-Prosseorr-Heuristic-Network/blob/main/LICENSE)
+![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
+
+# Python used...
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+
+---
+
 # 🤖 SuperVisorSmartReporter (Sovereign Engine) :
 
 An advanced sovereign system for analyzing engineering documents and extracting matrices using:
