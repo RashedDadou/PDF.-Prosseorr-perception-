@@ -181,6 +181,15 @@ This image illustrates how the "leader's mind" in your project transforms from s
 
 ---
 
+# 🛡️ Sovereign Engine: Multilayered System Architecture
+
+![Sovereign Engine Internal Workings](Gemini_Generated_Image_7da4va7da4va7da4.png)
+
+> **Note for Engineers:** This architecture follows the "Separation of Concerns" principle. Each module (Extraction, Processing, Auditing) operates independently, ensuring system scalability across diverse industrial sectors.
+
+---
+
+
 # Copyright
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://github.com/RashedDadou/PDF-Prosseorr-Heuristic-Network/blob/main/LICENSE)
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
