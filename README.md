@@ -129,40 +129,6 @@ In short, you've moved from the stage of "automating tasks" to the stage of "bui
 
 ---
 
-## 🛡️ Design Process Diagram Explained :
-The image is divided into three main stages that trace the data flow from the raw PDF file to the final report:
-
-Stage 1: Physical Deconstruction:
-The process begins with the input of an engineering PDF file (214 pages).
-
-The SovereignDataExtractor function appears and performs two operations:
-Smart Chunking: Splitting the text into blocks of 500 characters each.
-Overlap Management: Ensuring 200-character overlap to maintain context.
-These blocks are stored as Knowledge Blocks (Nodes) linked together within the PDFpageCacheNetwork, designed to work efficiently with your high RAM capacity.
-
-
-Stage 2: The Brain of the System - Inference Engine Design
-This is where true "inference" occurs via UniversalSovereignInference.
-The image shows the artificial intelligence analyzing three parallel paths:
-
-Structural Perception: Matrix/Digit Detection.
-Logical Inference: Extracting geometric variables (theta, alpha, steps).
-Contextual Linking: Understanding data continuity between pages (Continuity Logic).
-All these results are checked by the central function `Filtering_logical_patterns` before the variables are stored and the Knowledge Graph is built in memory.
-
-Phase 3: Operational Audit and Reporting
-The `SovereignReportEngine` function evaluates the quality of the knowledge.
-The Integrity Scoring (the ratio of valid blocks to the total) is calculated, with a counter indicating a high integrity score (90-100%).
-
-Data stability is categorized (High, Medium, Low), and the domain type (automotive, aviation, medicine) is automatically determined via Domain Inference.
-Output: Sovereign Audit Report
-Ultimately, an official audit report is generated, detailing the file identity (H-POINT1), the number of blocks (224), and the final integrity factor (100%).
-Note the System Feedback Loop arrow, which returns the results to the memory network to enhance understanding in future tasks.
-
-This image illustrates how the "leader's mind" in your project transforms from simply reading text to understanding complex geometric relationships in a professional and sovereign manner, using English.
-
----
-
 # visual inference network VS cognitive network :
 
 The difference between the "visual inference network" and the improved "cognitive network" is vast, similar to the difference between observation and deep perception.
@@ -213,6 +179,38 @@ In short: We're not just drawing links; we're building a "sovereign perception m
 ![Sovereign Engine Internal Workings](Gemini_Generated_Image_7da4va7da4va7da4.png)
 
 > **Note for Engineers:** This architecture follows the "Separation of Concerns" principle. Each module (Extraction, Processing, Auditing) operates independently, ensuring system scalability across diverse industrial sectors.
+
+🛡️ Design Process Diagram Explained
+The image is divided into three main stages that trace the data flow from the raw PDF file to the final report:
+
+## Stage 1: Physical Deconstruction
+The process begins with the input of an engineering PDF file (214 pages).
+
+ The `SovereignDataExtractor` function appears and performs two operations:
+    Smart Chunking: Splitting the text into blocks of 500 characters each.
+    Overlap Management: Ensuring 200-character overlap to maintain context.
+ These blocks are stored as Knowledge Blocks (Nodes) linked together within the `PDFpageCacheNetwork` , designed to work efficiently with your high RAM capacity.
+
+## Stage 2: The Brain of the System - Inference Engine Design
+This is where true "inference" occurs via `UniversalSovereignInference`.
+
+ The image shows the artificial intelligence analyzing three parallel paths:
+    Structural Perception: Matrix/Digit Detection.
+    Logical Inference: Extracting geometric variables (theta, alpha, steps).
+ Contextual Linking: Understanding data continuity between pages (Continuity Logic).
+
+All these results are checked by the central function `Filtering_logical_patterns` before the variables are stored and the Knowledge Graph is built in memory.
+
+## Phase 3: Operational Audit and Reporting
+The `SovereignReportEngine` function evaluates the quality of the knowledge.
+
+   The Integrity Scoring (the ratio of valid blocks to the total) is calculated, with a counter indicating a high integrity score (90-100%).
+   Data stability is categorized (High, Medium, Low), and the domain type (automotive, aviation, medicine) is automatically determined via Domain Inference.
+
+Output: Sovereign Audit Report
+Ultimately, an official audit report is generated, detailing the file identity (H-POINT1), the number of blocks (224), and the final integrity factor (100%).
+Note the System Feedback Loop arrow, which returns the results to the memory network to enhance understanding in future tasks.
+This image illustrates how the "leader's mind" in your project transforms from simply reading text to understanding complex geometric relationships in a professional and sovereign manner, using English.
 
 ---
 
