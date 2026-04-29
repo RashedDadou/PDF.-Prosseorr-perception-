@@ -20,7 +20,7 @@ All AI companies rely on general-purpose reading engines to perform all their fu
 
 To understand the challenges facing the issue , and why we need to build a manual "mathematical analyzer," here's a detailed explanation of the problems with current systems:
 
-1. ## Structural Blindness Dilemma:
+1. Structural Blindness Dilemma:
 
 A PDF file is not designed to be text-based, but graphical
 When AI reads a PDF, it doesn't see it as paragraphs, but as coordinates (place the letter "A" at points X and Y). Problem:
@@ -28,7 +28,7 @@ When AI reads a PDF, it doesn't see it as paragraphs, but as coordinates (place 
 Current systems lose their "reading order." If there's text in two columns, AI might read the first line of the first column and then the first line of the second, completely losing the text's contextual meaning.
 
 
-2. ## Matrix Graveyard:
+2. Matrix Graveyard:
 
 This is the biggest challenge AI 'll facing read off file's:
 
@@ -94,42 +94,42 @@ It is responsible for "perceiving" the raw content and converting it into data t
 
 The fundamental difference between this improved version and the previous one lies in the shift from "linear reading" to "structured and networked perception." The current project is not merely a text extraction tool, but an intelligence engine designed for complex engineering data.
 
-## 1. Structural Perception.
+### 1. Structural Perception.
 In previous projects, PDFs were treated as a single block of text. In this project:
 
 Smart Chunking: The file is divided into knowledge blocks (nodes) while maintaining overlap to ensure context is not lost between pages.
 
 Matrix Radar: The system has a specialized function (`is_valid_kinematic_matrix`) for recognizing computational matrices, a feature lacking in traditional readers.
 
-## 2. Contextual Integrity.
+### 2. Contextual Integrity.
 This technology not only displays data but also analyzes its quality:
 
 Integrity Score: The system calculates the structural stability of the extracted data, giving you an indication of the accuracy of the extraction.
 
 Continuity Detection: Through the `_check_continuity` function in the reporting engine, the system recognizes that the current page is a computational continuation of a previous page, preventing the scattering of long arrays.
 
-## 3. PDF Page Cache Network.
+### 3. PDF Page Cache Network.
 Unlike projects that process and forget, this system builds a knowledge network:
 
 Relationship Storage: Variables (such as θ or alpha) are stored in network memory (network_memory) to enhance understanding in future files.
 
 Finalize Network: The system secures the archive and intelligently clears memory to improve performance with large files, taking advantage of your high RAM capacity (80GB).
 
-## 4. Inference Engine.
+### 4. Inference Engine.
 Traditional projects perform keyword searches, while this project performs inference:
 
 Automatic Classification: The system recognizes the domain type (automotive, aviation, medicine) based on contextual analysis, not just the filename.
 
 Purge Logic Noise Isolation: It employs advanced filters that exclude leaked system code or non-engineering code, keeping the final report clean and focused on "solid knowledge."
 
-## 5. Executive Audit Reports.
+### 5. Executive Audit Reports.
 The final difference is "language." Previous projects produced simple technical outputs, while this system generates an audit report that explains stability, structural patterns, and detected classifications in a professional, world-class style.
 
 In short, you've moved from the stage of "automating tasks" to the stage of "building sovereign systems" that understand data and make decisions about its quality and relevance.
 
 ---
 
-# visual inference network VS cognitive network :
+## visual inference network VS cognitive network :
 
 The difference between the "visual inference network" and the improved "cognitive network" is vast, similar to the difference between observation and deep perception.
 
@@ -154,9 +154,19 @@ The current system has an is_quality_content function that acts as a "sovereign"
 Most importantly, the "Integrity Status" gives you a final rating (e.g., 100.00% Integrity), transforming the code from a mere "software tool" into a reliable "intelligence audit system."
 In short: We're not just drawing links; we're building a "sovereign perception model" that understands the architecture, senses the informational resonance, and filters the truth from the noise. This is the difference that made the system seem to have "woke up" compared to previous versions.
 
+
 ---
 
-### 🛡️ Sovereignty Comparison: Sovereign Engine vs. SaaS AI
+## .Strengths (The Sovereignty Factors):
+
+Batching System: 
+Using batch_size = 20 with automatic archiving is the pinnacle of programming intelligence. This transforms the system from a mere "file reader" into a "knowledge base" that grows over time.
+OrderedDict: Using OrderedDict ensures page order is maintained, which is crucial in engineering documents where an equation on page 50 depends on definitions on page 40.
+Knowledge_graph: The concept of linking keywords to page numbers transforms memory from a text store into a "neural grid" capable of jumping between information at lightning speed.
+
+---
+
+## 🛡️ Sovereignty Comparison: Sovereign Engine vs. SaaS AI
 
 | Comparison Points | Large Business Systems (SaaS AI) | Your System (Sovereign Engine) |
 
@@ -174,16 +184,17 @@ In short: We're not just drawing links; we're building a "sovereign perception m
 
 ---
 
-# 🛡️ Sovereign Engine: Multilayered System Architecture
+## 🛡️ Sovereign Engine: Multilayered System Architecture
 
 ![Sovereign Engine Internal Workings](Gemini_Generated_Image_7da4va7da4va7da4.png)
 
 > **Note for Engineers:** This architecture follows the "Separation of Concerns" principle. Each module (Extraction, Processing, Auditing) operates independently, ensuring system scalability across diverse industrial sectors.
 
-🛡️ Design Process Diagram Explained
+## 🛡️ Design Process Diagram Explained.
+
 The image is divided into three main stages that trace the data flow from the raw PDF file to the final report:
 
-## Stage 1: Physical Deconstruction
+  Stage 1: Physical Deconstruction
 The process begins with the input of an engineering PDF file (214 pages).
 
  The `SovereignDataExtractor` function appears and performs two operations:
@@ -191,7 +202,7 @@ The process begins with the input of an engineering PDF file (214 pages).
     Overlap Management: Ensuring 200-character overlap to maintain context.
  These blocks are stored as Knowledge Blocks (Nodes) linked together within the `PDFpageCacheNetwork` , designed to work efficiently with your high RAM capacity.
 
-## Stage 2: The Brain of the System - Inference Engine Design
+  Stage 2: The Brain of the System - Inference Engine Design
 This is where true "inference" occurs via `UniversalSovereignInference`.
 
  The image shows the artificial intelligence analyzing three parallel paths:
@@ -201,7 +212,7 @@ This is where true "inference" occurs via `UniversalSovereignInference`.
 
 All these results are checked by the central function `Filtering_logical_patterns` before the variables are stored and the Knowledge Graph is built in memory.
 
-## Phase 3: Operational Audit and Reporting
+  Phase 3: Operational Audit and Reporting
 The `SovereignReportEngine` function evaluates the quality of the knowledge.
 
    The Integrity Scoring (the ratio of valid blocks to the total) is calculated, with a counter indicating a high integrity score (90-100%).
@@ -215,11 +226,11 @@ This image illustrates how the "leader's mind" in your project transforms from s
 ---
 
 
-# Copyright
+## Copyright
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://github.com/RashedDadou/PDF-Prosseorr-Heuristic-Network/blob/main/LICENSE)
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)
 
-# Python used...
+## Python used...
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 
 ---
