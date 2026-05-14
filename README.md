@@ -32,7 +32,7 @@ To understand the challenges of this problem and why we need to build an advance
 
 ---
 
-The sullustin :
+  ## The sullustin :
 
  (Why This Project Outperforms Other Versions):
 
@@ -50,6 +50,24 @@ The inference mind system processes PDF files in this intelligent way, not as a 
 That's why we designed the structured awareness network and batch processing system within the PDF processor, so the system doesn't forget what it read initially. In the PDF processor:
 
 That's also why we designed the "Segment Size/Overlay" property in Module B, to maintain text coherence and consistency as much as possible.
+
+  ## The design can be summarized as follows:
+
+1. Advanced structural analysis uses NumPy arrays to enforce precise mathematical order on tables and arrays.
+
+2. Semantic Keyword Binding understands the relationships between terms within the document instead of treating them as separate texts.
+
+3. Layout Structure Analysis understands columns, tables, headings, images, and layout better than traditional engines.
+
+4.Inferential Network treats the file as interconnected knowledge units (not just separate numbered pages).
+
+5. Structured Awareness Network maintains long-term memory within a large file so that early information is not forgotten.
+
+6. Batch Processing System reads the file in batches while preserving context.
+
+7. Chunk Size + Overlap, located in Module B, maintains text cohesion and reduces context loss between sections.
+
+8. Intelligent handling of arrays and tables solves the "array graveyard" problem that most models currently suffer from.
 
 ---
 
