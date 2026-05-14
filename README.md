@@ -1,53 +1,38 @@
 # Project Design Explanation:
 
-Large companies (the struggle):
+Project Design Explanation:
 
-All AI companies rely on general-purpose reading engines, so when they encounter a $4x4 array, they "go off-context and hit a hallucination," losing their row and column order because they don't understand the "mathematical logic."
+Most AI companies rely on generic file-reading engines. Therefore, when you upload a PDF file to any popular website, 
+the file-reading engine struggles to read a 4x4 array. These engines lose the order of the rows and columns because they don't understand the mathematical logic.
 
-The fundamental difference (why this project outperforms large companies): The PDF processor project offers a solution: It's designed to perform "structural dissection," using NumPy arrays and performing semantic keyword mapping and layout structure analysis. This means the PDF processor enforces the mathematical order and doesn't leave anything to guesswork.
-
-Despite the immense "mental" power of models like GPT-4, Cloud 3, or Gemini, their "eyes" (file reading processes) still suffer from a significant weakness, especially with PDF files.
+Despite the impressive performance of models like GPT-4, Cloud 3, and Gemini, their file-reading capabilities still suffer from significant weaknesses, 
+especially with PDFs.
 
 ---
 
 ## Inferential PDF Processing Network
 
-# Basic Idea:
+To understand the challenges of this problem and why we need to build a `PDF Processing` here's a detailed explanation of the problems with current systems:
 
-Large Companies (The Dilemma):
+The Structural Blindness Dilemma:
+A PDF file is not designed to be text-based, but graphical. When AI reads a PDF, it doesn't see it as paragraphs, but as coordinates (place the letter "A" at points X and Y). The problem:
+Current systems lose their "reading order." If there is text in two columns, AI might read the first line of the first column and then the first line of the second, completely losing the contextual meaning of the text.
 
-All AI companies rely on general-purpose reading engines to perform all their functions. Therefore, when faced with reading 4x4 arrays, these engines lose context and struggle with row and column order because they don't understand the mathematical logic.
+The Graveyard of Arrays:
+This is the biggest challenge AI will face when reading files:
+The tables in PDFs are not programmatic tables; It's just lines drawn around the numbers.
+The problem: When AI reads a 4x4 matrix, it often scrambles the numbers. It might read the first row and then get stuck on the second column, turning the mathematical matrix into a random string of numbers.
 
-To understand the challenges facing the issue , and why we need to build a manual "mathematical analyzer," here's a detailed explanation of the problems with current systems:
+The main drawback: 
+Most large companies (like OpenAI) rely on Optical Character Recognition (OCR) technology, which consumes a huge amount of code, resulting in an error rate of up to 30% for sensitive numbers.
 
-1. Structural Blindness Dilemma:
+Context window fragmentation: 
+When a file is large, AI cannot fit the entire file into its "microfile memory."
 
-A PDF file is not designed to be text-based, but graphical
-When AI reads a PDF, it doesn't see it as paragraphs, but as coordinates (place the letter "A" at points X and Y). Problem:
+The problem: 
+The system is forced to reorder the file. The issue is that "Information A" on page 10 might be related to "Equation B" on page 150. Current systems often fail to connect this disparate information.
 
-Current systems lose their "reading order." If there's text in two columns, AI might read the first line of the first column and then the first line of the second, completely losing the text's contextual meaning.
-
-
-2. Matrix Graveyard:
-
-This is the biggest challenge AI 'll facing read off file's:
-
-. Tables in PDFs aren't program tables; they're simply lines drawn around numbers. Problem: When AI reads a 4x4 matrix, it often scrambles the numbers. It might read the first row and then get stuck on the second column, turning the mathematical array into a random string of numbers.
-
-The main drawback: Most large companies (like OpenAI) rely on Optical Character Recognition (OCR) technology, which consumes a huge amount of code and results in an error rate of up to 30% for sensitive numbers.
-
-3. Context Window Fragmentation:
-
-When a file is large , the AI ​​can't fit the entire file into its "small file memory."
-
-The problem :  The system is forced to reorder the file. The issue is that "Information A" on page 10 might be related to "Equation B" on page 150. Current systems often fail to connect this disparate information.
-
-
-4. Hidden Encryption Problem:
-
-Some PDF files use non-standard encryption. The word "Matrix" appears on the screen, but in the code layer within the file, it's stored as gibberish.
-
-The problem: Large systems struggle to handle older files or files created with engineering software (like CAD) because the words appear as gibberish.
+Hidden encryption problem: Some PDF files use non-standard encryption. The word "Matrix" appears on the screen, but it is stored in the code layer within the file as unintelligible symbols.
 
 ---
 
