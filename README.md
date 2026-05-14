@@ -59,7 +59,7 @@ That's also why we designed the "Segment Size/Overlay" property in Module B, to 
 
 3. Layout Structure Analysis understands columns, tables, headings, images, and layout better than traditional engines.
 
-4.Inferential Network treats the file as interconnected knowledge units (not just separate numbered pages).
+4. Inferential Network treats the file as interconnected knowledge units (not just separate numbered pages).
 
 5. Structured Awareness Network maintains long-term memory within a large file so that early information is not forgotten.
 
