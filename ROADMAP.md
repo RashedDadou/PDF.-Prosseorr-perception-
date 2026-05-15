@@ -159,7 +159,7 @@ Transportation Design Art Center College of Design MORE TITLES FROM DESIGN STUDI
 The project's development journey began on (`April 9, 2026`), using our proprietary technologies. 
 Version 2, sovereign_engine, is considered the cornerstone, paving the way for improved and advanced versions based on its contextual approach.
 
-Return to homepage **[Roadmap →](README.md)**
+Return to homepage **[README](README.md)** File .
 
 ---
 
