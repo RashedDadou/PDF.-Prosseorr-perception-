@@ -1,55 +1,56 @@
 # Sovereign Engine - Development Roadmap
 
-**Last Updated:** May 2026
+**Last Updated:** May 15, 2026
 
 ---
 
-## 🛣️ Roadmap
+## 🛣️ Project Roadmap
 
-### **Phase 1: Current (v2.0) - Completed** ✅
+### **Phase 1: Foundation (v2.0) - Completed** ✅
 
-- Multi-layer PDF reader with intelligent OCR
+- Multi-layer PDF reader with intelligent OCR support
 - Hybrid Matrix Extraction Engine (Regex + NumPy + LLM Repair)
-- Contextual Perception Layer specialized in H-Point
-- High-Performance Parallel Processing using ThreadPoolExecutor
-- Basic Inference Network + Vector Store
-- Professional Analysis & Markdown Reporting System
+- Advanced Perception Layer specialized in H-Point & Vehicle Packaging
+- High-performance parallel processing using ThreadPoolExecutor
+- Basic Inference Network + Vector Store implementation
+- Professional Markdown reporting system
 
-### **Phase 2: Short Term (Next 2-4 Weeks)**
+### **Phase 2: Short Term (Next 2–4 Weeks)** 🔄
 
-- Full RAG (Retrieval-Augmented Generation) support
-- Interactive Chat Interface with processed documents
-- Advanced Table Understanding & Reconstruction
-- Support for more matrix types (3x3, 6x6, DH Parameters, etc.)
+- Full RAG (Retrieval-Augmented Generation) capabilities
+- Interactive Chat Interface for querying documents
+- Enhanced Table Understanding and Reconstruction
+- Support for additional matrix types (3x3, 6x6, DH Parameters)
 - Performance optimization and benchmarking
-- Improved error handling and detailed logging
+- Improved logging and error handling
 
-### **Phase 3: Medium Term (Next 2-3 Months)**
+### **Phase 3: Medium Term (Next 2–3 Months)** ⏳
 
 - Multi-document knowledge base
-- Web UI / Dashboard interface
-- Export options (Excel, JSON, LaTeX)
+- Web-based Dashboard / UI
+- Export functionality (Excel, JSON, LaTeX)
 - Domain-specific models (Automotive, Aerospace, Robotics)
-- Batch processing for entire folders
-- REST API service (FastAPI)
+- Batch processing for multiple PDF folders
+- REST API using FastAPI
 
-### **Phase 4: Long Term (Future Vision)**
+### **Phase 4: Long Term Vision** 🚀
 
-- Fine-tuned LLM specialized in technical matrices
+- Fine-tuned LLM specialized in technical matrices and engineering documents
 - Computer Vision integration for diagrams and figures
-- Collaboration features (team workspace)
-- Version control for processed documents
-- Cloud version (Sovereign Cloud)
-- Plugin system for custom domains
+- Team collaboration features
+- Document version control system
+- Sovereign Cloud version
+- Plugin architecture for custom domains
 
 ---
 
 **Status Legend**  
-✅ Completed | 🔄 In Progress | ⏳ Planned
+✅ Completed 🔄 In Progress ⏳ Planned
 
 ---
 
-**Note:** This roadmap is dynamic and will be updated regularly based on priorities and feedback.
+**Note:** This roadmap is dynamic and will evolve based on testing results, user feedback, and project priorities.
+
 ---
 
 ## 📸 Screenshots
