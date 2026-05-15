@@ -23,5 +23,10 @@ THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPL
 
 ---
 
-**Original Idea & Development:** Started on April 26, 2026  
+**Original Idea & Development:** :
+
+Original concept: Started April 9, 2026
+
+Development: Started April 26, 2026
+
 **Creator & Owner:** Rashed Dadoush
