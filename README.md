@@ -32,24 +32,38 @@ To understand the challenges of this problem and why we need to build an advance
 
 ---
 
-  ## The sullustin :
+## The Solution :
 
- (Why This Project Outperforms Other Versions):
+Why This Project Outperforms ?!..
 
-The PDF Processor project offers a fundamental solution.
+Other VersionsThe PDF Processor project offers a fundamental solution to this problem.This system is designed to perform structural analysis using NumPy arrays, semantically linking words, and analyzing the complete page layout.
 
-Why is this project superior to others?
-The Portable Document Format Wizard (PDF) offers a fundamental solution to this problem.
-This system is designed to perform structural analysis using Nombay arrays, semantically linking words and analyzing the entire page structure.
-This means that PDFW enforces precise mathematical order, leaving no room for doubt or random guesswork.
+This means the PDF Processor enforces precise mathematical ordering, leaving no room for doubt or random guesswork.The project is designed to handle the opening and reading of large PDF files using an inference network based on page numbering (one, two, three, four...). 
 
-The project is designed to handle opening and reading large Portable Document Format (PDF) files using a page-numbered inference network (one, two, three, four...). However, it doesn't process them as separate sheets, but rather as interconnected knowledge units, much like the neural network in the human brain.
+However, it does not treat them as separate isolated sheets, but rather as interconnected knowledge units — much like the neural network in the human brain.The Inferential Mind system processes PDF files in this intelligent manner, not as a long series of disconnected pages.
 
-The inference mind system processes PDF files in this intelligent way, not as a long series of separate sheets.
+That is why we designed the Structured Awareness Network and the Batch Processing System inside the PDF Processor, ensuring the system does not forget what it read at the beginning.In the PDF Processor, we also designed the (Chunk Size / Overlap) property in Module B to maintain the highest possible text coherence and contextual consistency.
 
-That's why we designed the structured awareness network and batch processing system within the PDF processor, so the system doesn't forget what it read initially. In the PDF processor:
+   ## ... Sovereign Engine v2.0
 
-That's also why we designed the "Segment Size/Overlay" property in Module B, to maintain text coherence and consistency as much as possible.
+An Advanced PDF Matrix Extraction & Perception System. Sovereign Engine is an intelligent system specializing in extracting and understanding 4x4 homogeneous transformation matrices from complex technical PDF files, with a strong focus on H-Point and vehicle packaging documents in automotive engineering, robotics, mechanics, etc.
+
+What sets it apart from other systems?
+
+Advanced Perception Layer: Understands the page before extraction (distinguishing between a regular page and one containing important matrices).
+
+Hybrid Extraction Engine: Combines Regex + NumPy + LLM Repair (GPT-40-mini) to achieve very high accuracy, even in weak OCR conditions.
+
+Inference Network + Hubs System: Builds a knowledge network that connects pages and understands the context at the document level.
+
+High-performance parallel processing using ThreadPoolExecutor.
+
+Long-term memory with Vector Store and intelligent archiving.
+
+Hybrid semantic search (Semantic + Keyword + Technical Boost).
+
+Main Uses
+
 
   ## The design can be summarized as follows:
 
