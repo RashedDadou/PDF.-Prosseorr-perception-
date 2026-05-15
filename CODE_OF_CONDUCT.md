@@ -37,8 +37,8 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at:
 
-**Email:** [rasheddadou@gmail.com]  
-(or any preferred contact method)
+**Email:Gmail** [rasheddadou@gmail.com]  
+**Email:Outlook** [rasheddadou@Outlook.com]  
 
 All complaints will be reviewed and investigated promptly and fairly.
 
