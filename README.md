@@ -390,30 +390,7 @@ yati taqrir alnizam (tadqiq aliastiqrari) yuadih madaa salamat albayanat almusta
 
 ---
 
-# Sovereign Engine v2.0
 
-**Advanced PDF Matrix Extraction System**  
-Specialized in extracting **4x4 Homogeneous Transformation Matrices** from technical documents.
-
-Designed specifically for **H-Point, Vehicle Packaging, and Automotive Design** engineering documents.
-
-The project's development journey began on April 9, 2026, using our proprietary technologies. 
-Version 2, sovereign_engine, is considered the cornerstone, paving the way for improved and advanced versions based on its contextual approach.
-
-Adapted from testing processes:
-
-```bash
-
-04:49:03 | INFO     | SovereignEngine      | ================================================================================
-04:49:03 | INFO     | SovereignEngine      | ✅ Successfully processed 1933492376_hpoint1.pdf
-04:49:03 | INFO     | SovereignEngine      |    • Total Pages               : 224
-04:49:03 | INFO     | SovereignEngine      |    • Total Matrices            : 103
-04:49:03 | INFO     | SovereignEngine      |    • Pages with Matrices       : 69
-04:49:03 | INFO     | SovereignEngine      |    • High Quality Matrices     : 98
-04:49:03 | INFO     | SovereignEngine      |    • Total Execution Time      : 355.26 seconds
-04:49:03 | INFO     | SovereignEngine      | ================================================================================
-
-```
 
 ---
 
