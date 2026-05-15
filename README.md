@@ -430,6 +430,14 @@ Adapted from testing processes:
 
 ```
 
+## 🛣️ Development Roadmap
+
+See our complete **[Roadmap →](ROADMAP.md)** for upcoming :
+
+Test results.
+Upcoming features.
+Future plans.
+
 ---
 
 # Sovereign Engine Processing Report
