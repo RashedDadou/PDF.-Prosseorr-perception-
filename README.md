@@ -216,7 +216,102 @@ The Result: Instead of being just a "matrix extractor," the system has an infere
 
 ---
 
-## 🛡️  Key Features
+   ## Hybrid Semantic Search :
+
+Hybrid semantic search is one of the most powerful features of the Sovereign Engine. Instead of relying on a single search method, the system combines three different technologies to achieve the highest level of accuracy and relevance. How does it work?
+
+Semantic Search:
+Uses Embeddings (Sentence-Transformers) to understand the semantic meaning of the query in relation to the page content.
+
+Keyword Search:
+A fast, traditional search using keywords as a backup.
+
+Technical Boost:
+Gives additional weight to pages based on: the number of extracted arrays, the page's technical level, and whether the page is considered a Hub in the inference network.
+
+Key Features:
+High accuracy in understanding natural language queries; significantly reduced irrelevant results; intelligent boosting of high-value technical pages; fast performance and reliable results, even in large documents.
+
+Result:
+Searching within a document becomes more like "intelligent search" than simply matching words. The user can ask a normal question, and the system will respond with the best relevant technical pages in an intelligent order.
+
+---
+
+   ## Intelligent Array Repair Using LLM (OpenAI) :
+
+The LLM Repair Layer is the intelligent repair layer in the Sovereign Engine. It relies on a large language model (GPT-40-mini) to correct errors that occur during array extraction, especially those resulting from poor OCR, incorrect ordering, or corrupted text. How does it work? After the initial extraction stage using Regex and NumPy, the system evaluates the quality of each array.
+
+If the quality is medium or low (typically between 20-55), it sends the original text segment to the LLM.
+
+A highly specialized prompt is used for homogeneous 4x4 transformation arrays and the H-Point domain.
+
+The model is instructed to return the correct array in a structured JSON format.
+
+The result is compared to the original array, and the best quality is selected.
+
+Key Features:
+
+Intelligent correction of common OCR errors (incorrect numbers, column order, etc.)
+Specialized contextual understanding for automotive engineering
+Significant improvement in accuracy rate for weak arrays
+Configurable
+
+Result:
+
+The system transforms from a mere "extractor" into an "intelligent repairer," capable of repairing corrupted or unclear arrays that were impossible to extract accurately using traditional methods alone.
+
+---
+
+   ## Smart Archiving & Long-Term Memory Management:
+
+Sovereign Engine is an integrated system for smart archiving and retrieval. Instead of simply saving files, the system intelligently and systematically archives documents while retaining long-term memory of their content. How does it work? It automatically saves each processed document to an archive folder with rich metadata. It uses a Vector Store with LRU Cache technology to store semantic vectors. It builds and maintains an Inference Network for each document. It supports quick retrieval of any page or previous information, even after closing the program.
+
+Key Features:
+
+Organized and easy-to-search archiving (Content Dump + Batch System)
+Highly efficient memory management with a smart removal mechanism (LRU)
+Preservation of context and relationships between pages for extended periods
+The ability to quickly retrieve and search previously processed documents
+
+Result: Sovereign Engine transforms from a simple PDF processor into a knowledge platform that retains its memory. The more you use it, the smarter and faster it becomes at retrieving information. Information from previous documents.
+
+---
+
+   ## Powerful data modeling using Pydantic V2 :
+
+This is the backbone of data management in Sovereign Engine. The system relies entirely on robust and structured data modeling to ensure the safety, validation, and compatibility of all project components. How does the system work? It defines all major objects using a BaseModel (e.g., RawPage, PDFDocument, MatrixData, ExtractionResult, SearchResult, etc.). It uses Fields to define constraints (e.g., ge=0, le=100, max_length, etc.). It supports advanced model_post_init and model_config for automatic configuration and custom behavior. It provides secure helper functions (e.g., create_pdf_document, create_empty_page, etc.).
+
+Key Features: Automatic data type and value validation (Type Safety + Validation). Early error detection before they cause operational problems. Easy maintenance and scalability when adding new features. High compatibility between different layers (Reader → Processor → Memory → Search). Professional-quality JSON Serialization/Deserialization support.
+
+The Result: Pydantic ensures a stable, secure, and easy-to-develop system, significantly reducing bugs caused by unexpected or incorrect data.
+
+---
+
+Professional Reports and Final Document Analysis: 
+
+Conclusion Engine ، This component transforms raw data into valuable and useful information. After the matrix extraction process is complete, the system performs a comprehensive and final analysis at both the page and document levels. How does it work?
+
+It evaluates the quality of each page (Integrity Score).
+It analyzes the number of matrices, technical level, and context.
+It identifies and ranks high-value pages.
+It generates intelligent recommendations (e.g., "This page is excellent as a technical reference").
+It produces a comprehensive, professional Markdown report.
+
+Key Features:
+
+Comprehensive Document-Level Analysis
+
+Organized and easy-to-read Markdown reports
+Clear statistics (number of matrices, high-quality pages, success rates, etc.)
+Practical recommendations to help engineers make quick decisions
+Intelligent summary of the entire document
+
+The Outcome:
+Instead of just giving you raw matrices, the Sovereign Engine provides a professional report that summarizes the document, highlights the most important pages, and gives you a clear view of the quality and content of the technical document.
+
+---
+
+## 🛡️ Key Features
 
    ### Sovereign Engine :
 combines multiple advanced technologies to deliver exceptional performance in technical document processing:
@@ -256,33 +351,23 @@ An advanced Conclusion Engine that performs document-level analysis, calculates 
 
 ## 🛡️ Design Process Diagram Explained.
 
-The image is divided into three main stages that trace the data flow from the raw PDF file to the final report:
+Intelligent Archiving and Long-Term Memory Management
 
-  Stage 1: Physical Deconstruction
-The process begins with the input of an engineering PDF file (214 pages).
+Intelligent archiving and long-term memory management are key pillars that make Sovereign Engine not just a knowledge tool, but a truly efficient knowledge platform. It builds intelligent, persistent memory, preventing the system from being unable to process and then forgetting the current file. Sovereign Engine archives and organizes every document it captures. It saves each page with its rich metadata, extracted arrays, technical levels, and inter-page relationships. The system relies on a Vector Store powered by LRU Cache technology, allowing it to retain the most important information for each piece of content. 
 
- The `SovereignDataExtractor` function appears and performs two operations:
-    Smart Chunking: Splitting the text into blocks of 500 characters each.
-    Overlap Management: Ensuring 200-character overlap to maintain context.
- These blocks are stored as Knowledge Blocks (Nodes) linked together within the `PDFpageCacheNetwork` , designed to work efficiently with your high RAM capacity.
+It also builds and can prepare an inference network that connects shared pages and concepts within Oxford and across different documents. Key features: 
 
-  Stage 2: The Brain of the System - Inference Engine Design
-This is where true "inference" occurs via `UniversalSovereignInference`.
+Automatic archiving using Content Dump and Batch Organization structure.
+Instant and rapid retrieval of any previous information or page.
+Guaranteed long-term spacing between pages.
+Enhanced access to entertainment culture—the more you process beauty products.
+the smarter and more knowledgeable your field becomes.
 
- The image shows the artificial intelligence analyzing three parallel paths:
-    Structural Perception: Matrix/Digit Detection.
-    Logical Inference: Extracting geometric variables (theta, alpha, steps).
- Contextual Linking: Understanding data continuity between pages (Continuity Logic).
+The result:
 
-All these results are checked by the central function `Filtering_logical_patterns` before the variables are stored and the Knowledge Graph is built in memory.
+Sovereign Engine, no membership card required, can remember and connect information across Facebook or hundreds of documents, transforming it from a general tool into a true knowledge partner for engineers and researchers.
 
-  Phase 3: Operational Audit and Reporting
-The `SovereignReportEngine` function evaluates the quality of the knowledge.
-
-   The Integrity Scoring (the ratio of valid blocks to the total) is calculated, with a counter indicating a high integrity score (90-100%).
-   Data stability is categorized (High, Medium, Low), and the domain type (automotive, aviation, medicine) is automatically determined via Domain Inference.
-
-Output: Sovereign Audit Report
+Output:  Sovereign Audit Report
 Ultimately, an official audit report is generated, detailing the file identity (H-POINT1), the number of blocks (224), and the final integrity factor (100%).
 Note the System Feedback Loop arrow, which returns the results to the memory network to enhance understanding in future tasks.
 This image illustrates how the "leader's mind" in your project transforms from simply reading text to understanding complex geometric relationships in a professional and sovereign manner, using English.
@@ -299,47 +384,6 @@ This image illustrates how the "leader's mind" in your project transforms from s
 
 ---
 
-# 🤖 SuperVisorSmartReporter (Sovereign Engine) :
-
-An advanced sovereign system for analyzing engineering documents and extracting matrices using:
-
-Page Separation System
-
-Semantic Awareness Network
-
-Scheduled Archiving System
-
-Memory Support System
-
-## 🚀 Key Features :
-
-- **Mathematical Analyzer**: Examines the stability of 4x4 matrices with high geometric accuracy.
-
-- **Structural Awareness Network**: Batch memory management to ensure optimal use of system resources.
-
-- **Field Commander (A)**: Coordinates the flow of information from raw files to final results.
-
-## 🛠️ How to Operate :
-
-pip install -r requirements.txt
-
-python main.py
-
----
-
-
----
-
-🔄 ## masar tadafuq albayanat (Data Workflow) :
-almarhalat 1 (Trigger): tabda min main.py hayth yatimu aliatisal bialqayid A.
-almarhalat 2 (aliastikhraji): yaqum almilafa B liusbih PDF 'iilaa kutal nasiya (all_chunks).
-almarhalat 3 (aldhaakirat waltadmini): yatimu takhzin alkutal fi P3_memory bimusaeadat alwazn P2.
-almarhalat 4 (aliastidlali): yatimu astisal alkutal eabr almuharik C liusbih misfufat al 4x4.
-almarhalat 5 (altadqiqu): yaqum "almuhalil alriyadi" dakhil almilafi a bifahs alnatayija.
-almarhalat 6 (al'iintiha'u): yatimu damj aldhaakirat wa'abhath ean aldufueat fi almajalat almukhasasati.
-
----
-
 📊 ## altaqarir :
 
 yati taqrir alnizam (tadqiq aliastiqrari) yuadih madaa salamat albayanat almustakhrajat wanazahatiha alriyadiati.
@@ -352,6 +396,24 @@ yati taqrir alnizam (tadqiq aliastiqrari) yuadih madaa salamat albayanat almusta
 Specialized in extracting **4x4 Homogeneous Transformation Matrices** from technical documents.
 
 Designed specifically for **H-Point, Vehicle Packaging, and Automotive Design** engineering documents.
+
+The project's development journey began on April 9, 2026, using our proprietary technologies. 
+Version 2, sovereign_engine, is considered the cornerstone, paving the way for improved and advanced versions based on its contextual approach.
+
+Adapted from testing processes:
+
+```bash
+
+04:49:03 | INFO     | SovereignEngine      | ================================================================================
+04:49:03 | INFO     | SovereignEngine      | ✅ Successfully processed 1933492376_hpoint1.pdf
+04:49:03 | INFO     | SovereignEngine      |    • Total Pages               : 224
+04:49:03 | INFO     | SovereignEngine      |    • Total Matrices            : 103
+04:49:03 | INFO     | SovereignEngine      |    • Pages with Matrices       : 69
+04:49:03 | INFO     | SovereignEngine      |    • High Quality Matrices     : 98
+04:49:03 | INFO     | SovereignEngine      |    • Total Execution Time      : 355.26 seconds
+04:49:03 | INFO     | SovereignEngine      | ================================================================================
+
+```
 
 ---
 
@@ -376,29 +438,66 @@ Designed specifically for **H-Point, Vehicle Packaging, and Automotive Design** 
 ```python
 
 sovereign_engine/
-├── main.py                          # Main entry point
+├── main.py                          
 ├── requirements.txt
 ├── README.md
 ├── .env.example
-├── run.py                           # Quick start
+├── run.py 
 │
-├── sovereign/                       # Core package
+├── sovereign/ 
+│   ├── __init__.py
+│   ├── __version__.py
+│   │
 │   ├── config/
+│   │   └── config.py  
+│   │
 │   ├── logger/
-│   ├── models/                      # Pydantic models
-│   ├── pdf/                         # PDF Reader + OCR
-│   ├── matrix/                      # Matrix extraction core
-│   ├── processing/                  # Pipeline & processors
-│   ├── memory/                      # Vector Store + Archive + Inference
-│   ├── search/                      # Hybrid Search & Navigation
-│   ├── engine/                      # Main SovereignEngine
-│   └── analysis/                    # Conclusion Engine
+│   │   └── logger.py    
+│   │
+│   ├── models/                
+│   │   ├── document.py
+│   │   ├── pdf_models.py
+│   │   ├── matrix_models.py
+│   │   └── search_models.py
+│   │
+│   ├── pdf/
+│   │   ├── pdf_reader.py           
+│   │   └── matrix_OCR_duty.py      
+│   │
+│   ├── matrix/                    
+│   │   ├── matrix_extractor.py
+│   │   ├── matrix_detector.py     
+│   │   ├── matrix_evaluator.py
+│   │   ├── matrix_llm.py         
+│   │   └── calculator.py         
+│   │
+│   ├── processing/
+│   │   ├── pipeline.py              
+│   │   └── page_processor.py
+│   │
+│   ├── memory/
+│   │   ├── memory_manager.py       
+│   │   ├── vector_store.py
+│   │   ├── archive_manager.py
+│   │   └── embedding_logic.py
+│   │
+│   ├── search/
+│   │   ├── navigator.py
+│   │   ├── hybrid_search.py
+│   │   └── logic_extractor.py
+│   │
+│   ├── engine/
+│   │   └── sovereign_engine.py     
+│   │
+│   └── analysis/
+│       └── conclusion_engine.py   
 │
-├── reports/                         # Auto-generated reports
-├── logs/
-├── archive/
-├── cache/
-└── data/test_pdfs/                  # Test documents
+├── reports/                        
+├── logs/                          
+├── archive/                        
+├── cache/                          
+└── data/
+    └── test_pdfs/                 
 
 ```
 
