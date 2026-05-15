@@ -264,63 +264,78 @@ python main.py
 ---
 
 🏗️. ## Project Organizational Structure (Sovereign Architecture):
-Plaintext
-SuperVisorSmartReporter/
+
+sovereign_engine/
+├── main.py                          
+├── requirements.txt
+├── README.md
+├── .env.example
+├── run.py                            
+
+├── sovereign/                     
+│   ├── __init__.py
+│   ├── __version__.py
+│   │
+│   ├── config/
+│   │   ├── __init__.py
+│   │   └── config.py               
+│   │
+│   ├── logger/
+│   │   ├── __init__.py
+│   │   └── logger.py              
+│   │
+│   ├── models/                   
+│   │   ├── __init__.py
+│   │   ├── document.py
+│   │   ├── pdf_models.py
+│   │   ├── matrix_models.py
+│   │   └── search_models.py
+│   │
+│   ├── pdf/
+│   │   ├── __init__.py
+│   │   ├── pdf_reader.py           
+│   │   └── matrix_OCR_duty.py       
+│   │
+│   ├── matrix/                     
+│   │   ├── __init__.py
+│   │   ├── matrix_extractor.py
+│   │   ├── matrix_detector.py
+│   │   ├── matrix_evaluator.py
+│   │   ├── matrix_llm.py
+│   │   └── calculator.py          
+│   │
+│   ├── processing/
+│   │   ├── __init__.py
+│   │   ├── pipeline.py           
+│   │   └── page_processor.py
+│   │
+│   ├── memory/
+│   │   ├── __init__.py
+│   │   ├── memory_manager.py
+│   │   ├── vector_store.py
+│   │   ├── archive_manager.py
+│   │   └── embedding_logic.py
+│   │
+│   ├── search/
+│   │   ├── __init__.py
+│   │   ├── navigator.py
+│   │   ├── hybrid_search.py
+│   │   └── logic_extractor.py
+│   │
+│   ├── engine/
+│   │   ├── __init__.py
+│   │   └── sovereign_engine.py    
+│   │
+│   └── analysis/
+│       ├── __init__.py
+│       └── conclusion_engine.py   
 │
-
-├── 📂 sovereign_workspace/ # (Automatic) Main folder for temporary processes
-
-│ └── 📂 temp_chunks/ # Text blocks being processed in real time
-
-│
-
-├── 📂 sovereign_knowledge_base/ # (Automatic) Output of the "Structural Awareness Network"
-
-│ ├── 📂 batch_1_to_20/ # Archive of the first batch (maps and content)
-
-│ ├── 📂 batch_21_to_40/ # Archive of the second batch
-
-│ └── 📄 full_knowledge_graph.json # Ultimate Integrated Inferential Grid
-
-│
-
-├── 📜 main.py # [Power Switch] - Connects units and launches the task
-
-│
-
-├── ⚙️ A_pdf_processor.py # [Field Commander] - Manages the flow and the mathematical analyzer
-
-│
-
-├── 🛠️ B_data_extractor.py # [Dissecter] - Extracts text and converts it into nodes
-
-│
-
-├── 🧠 C_Tillage_engine.py # [Flow Engine] - Connects AI and results
-
-│
-
-├── 🛡️ Infrastructure_Units/ # Core Support Units
-
-│ ├── 📄 P1_sovereign_utils.py # Control System (Supervisor) and Accident Log
-
-│ ├── 📄 P2_embedding_logic.py # Vectorization
-
-│ └── 📄 P3_memory.py # Memory
-
-│
-
-├── 📄 ROBOTICS.pdf # [alhadafi] - almilafu almurad aliakhtiar masfufatih
-
-│
-
-├── 📝 require.txt # qayimat altatbiqat al'asasiat liltashghil
-
-├── 🔐 .env # milafu almafatih (sri)
-
-├── 🚫 .gitignore # aladhi yamnae rafe almilafaat li GitHub
-
-└── 📘 README.md # dalil altashghil waltaerif bialmashrue
+├── reports/                       
+├── logs/                        
+├── archive/                     
+├── cache/                       
+└── data/                      
+    └── test_pdfs/
 
 ---
 
