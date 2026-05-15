@@ -1,6 +1,6 @@
 # Contributing to Sovereign Engine
 
-Thank you for considering contributing to Sovereign Engine! 🎉
+Thank you for considering contributing to Sovereign Engine!...
 
 ## Code of Conduct
 
