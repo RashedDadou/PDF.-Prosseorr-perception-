@@ -24,7 +24,9 @@ Specialized in extracting and understanding **4x4 Homogeneous Transformation Mat
 Screenshots:
 Here are some screenshots from the current version of Sovereign Engine:Processing Screen
 
-![Sovereign Engine Internal Workings](processing.png)
+---
+
+![Sovereign Engine Internal Workings](processing.jpg)
 Real-time parallel processing with progress tracking and loggingMatrix Extraction
 
 ![Sovereign Engine Internal Workings](matrix_extraction.png)
