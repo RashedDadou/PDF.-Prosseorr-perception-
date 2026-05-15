@@ -430,6 +430,9 @@ Adapted from testing processes:
 
 See our complete **[Roadmap →](ROADMAP.md)** for upcoming :
 
+See our complete **[CODE OF CONDUCT →](CODE_OF_CONDUCT.md)** File :
+
+
 Test results.
 Upcoming features.
 Future plans.
