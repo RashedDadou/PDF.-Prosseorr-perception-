@@ -1,16 +1,4 @@
-## License
-
-**PDF-Prosseorr-Heuristic-Network**  
-Copyright (c) 2026 Rashed Dadoush. All Rights Reserved.
-
----
-
-### Proprietary License
-
-This software and all its components are proprietary and confidential.  
-Redistribution, use, modification, copying, or distribution of this software (in source or binary form), whether for commercial or non-commercial purposes, is **strictly prohibited** without the prior written permission of the copyright holder.
-
-### Special Licensing# MIT License
+# MIT License
 
 **Copyright (c) 2026 Rashed Dadoush**
 
